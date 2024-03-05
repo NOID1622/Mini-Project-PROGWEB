@@ -8,6 +8,7 @@ th, td{
 }
 
 .header{
+    
     position: absolute;
     padding-right: 100px;
     color: aliceblue;
@@ -15,13 +16,22 @@ th, td{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     font-size: 100px;
+    
 }
 
+
 .header2 >h1{
+
     position: fixed;
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(155, 11, 181, 0.8);
+    width: 59%;
 }
+
 .header2 > .search{
 
     position: absolute;
@@ -63,7 +73,7 @@ th, td{
     font-family: 'Calibri';
     font-weight: bold;
     background-color: rgb(84, 7, 120);
-    color: yellowgreen;
+    color: #28ffa6;
     float: right;
     border: none;
     padding: 11.55px 20px;
@@ -72,8 +82,10 @@ th, td{
     
 
 }
+
 .search button:hover {
-    background-color: #28ffa6;
+    background-color: #d811ee;
+    
     transform: scale(2);
     transition: transform 0.3s
  
@@ -129,7 +141,7 @@ footer {
 
     filter: brightness(200%);
     /* box-shadow: 0 0 100px rgba(16, 240, 53, 0.5); */
-    filter: drop-shadow(10px 7px 10px rgb(0, 255, 72));
+    filter: drop-shadow(10px 7px 10px #28ffa6);
     transform: scale(1.2);
     transition: transform 0.3s 
 }
@@ -137,6 +149,7 @@ footer {
     margin: 0;
 }
 .concert-option h2:hover{
+    text-transform: uppercase;
     text-decoration: underline overline;
     font-size: xx-large;
     color: #28ffa6;
@@ -144,6 +157,9 @@ footer {
 
 }
 /* terkini */
+.link:hover{
+    text-decoration: underline;
+}
 .hot > h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -152,6 +168,7 @@ footer {
 }
 
 .musik{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-collapse: collapse;
     border: transparent;
     margin: 1px;
@@ -159,8 +176,38 @@ footer {
     border-spacing: 10px;
     text-align: center;
 }
-.musik img:hover{
-    transform: scale(1.2);
-    transition: transform 0.3s
+
+
+.hidden {
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+
+    position: absolute;
+    top: -20px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang overlay */
+    color:#28ffa6;
+    width: 80%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    text-align: left;
+    
+}
+.overlay img{
+    margin-left: 100px;
 
 }
+
+.hidden:hover .overlay{
+    opacity: 1;
+}
+.overlay img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 3px 20px 0px #28ffa6;
+    transition: transform 0.3s ease;
+}
+
