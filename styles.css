@@ -3,6 +3,14 @@ table{
     border-collapse: collapse;
     width: 80%;
 }
+.home{
+    margin-top: 5px;
+    margin-left: 950px;
+}
+.home:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out   
+}
 th, td{
     width: 150px;
 }
@@ -231,10 +239,11 @@ footer table {
     border: transparent;
     background-color: #73097f;
     opacity:  0.85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 footer h2:hover{
-    color: #28ffa6;
+    color: #28ffa6; 
 }
 footer h3:hover{
     color: #28ffa6;
