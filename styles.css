@@ -75,7 +75,8 @@ th, td{
 .search button:hover {
     background-color: #28ffa6;
     transform: scale(2);
-    transition: transform 0.3s 
+    transition: transform 0.3s
+ 
 }
 
 /* fullscreen */
