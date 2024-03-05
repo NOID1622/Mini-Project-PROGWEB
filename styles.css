@@ -81,22 +81,22 @@ th, td{
     font-family: 'Calibri';
     font-weight: bold;
     background-color: rgb(84, 7, 120);
-    color: #28ffa6;
+    color: #f5fffb;
     float: right;
     border: none;
     padding: 11.55px 20px;
     cursor: pointer;
     transform: scale(1.8);
-    
+    /* background: linear-gradient(to bottom right, #200485, #980290); */
 
 }
 
 .search button:hover {
     background-color: #d811ee;
-    
+    color: #28ffa6;
     transform: scale(2);
     transition: transform 0.3s
- 
+    
 }
 
 /* fullscreen */
