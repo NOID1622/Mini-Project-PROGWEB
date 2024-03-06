@@ -71,7 +71,7 @@ th, td{
 .search{
     top: 10px;
     right: 20px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     box-shadow: 0 1px 10px  rgb(84, 7, 120);
     overflow: hidden;
 }
@@ -109,13 +109,21 @@ th, td{
 }
 
 /* fullscreen */
-body {
+.body1 {
     background-color: rgb(23, 23, 40);
     background-image: url(../back/konser1.jpg); 
     background-size: 40%;
     background-repeat: no-repeat;
 }
-
+body{
+    background-color: rgb(23, 23, 40);
+}
+.body2{
+    background-image: url(https://www.billboard.com/wp-content/uploads/2023/09/olivia-rodrigo-GUTS-world-tour-poster-billboard-1240.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: ;
+}   
 p{
     color: aliceblue;
 }
@@ -241,7 +249,7 @@ footer p{
 
 footer table {
     margin-left: 10% ;
-    text-align: center;
+    text-align:  center;
     color: aliceblue;
     height: 100%;
     border-collapse: collapse;
@@ -249,6 +257,8 @@ footer table {
     background-color: #73097f;
     opacity:  0.85;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ 
 }
 
 footer h2:hover{
@@ -256,4 +266,8 @@ footer h2:hover{
 }
 footer h3:hover{
     color: #28ffa6;
+}
+video{
+    border-radius: 100px;
+    box-shadow: 0px 3px 20px 0px #28ffa6;
 }
