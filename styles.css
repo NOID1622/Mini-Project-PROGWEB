@@ -15,6 +15,15 @@ th, td{
     width: 150px;
 }
 
+fieldset{
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    top: 50%; 
+
+
+     
+}
 .header{
     
     position: absolute;
@@ -56,10 +65,10 @@ th, td{
     text-decoration-color: #74057e;
 }
 .tebal{
-    border: none; /* Menghapus garis default */
-    height: 6px; /* Menentukan tinggi garis */
-    background-color: #74057e; /* Warna latar belakang garis */
-    margin: 20px 0; /* Memberi ruang di atas dan di bawah garis */
+    border: none;
+    height: 6px; 
+    background-color: #74057e; 
+    margin: 20px 0; 
 }
 
 /* pencarian */
@@ -119,10 +128,12 @@ body{
     background-color: rgb(23, 23, 40);
 }
 .body2{
-    background-image: url(https://www.billboard.com/wp-content/uploads/2023/09/olivia-rodrigo-GUTS-world-tour-poster-billboard-1240.jpg);
+    /* background-image: url(https://www.billboard.com/wp-content/uploads/2023/09/olivia-rodrigo-GUTS-world-tour-poster-billboard-1240.jpg); */
+    border: 1;
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center left;
+    background-image:fixed;
 }   
 .map{
     margin-left: 75%;
