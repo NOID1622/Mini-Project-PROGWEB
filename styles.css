@@ -271,3 +271,7 @@ video{
     border-radius: 100px;
     box-shadow: 0px 3px 20px 0px #28ffa6;
 }
+.maps{
+    height: 700px;
+    margin-left: 700px;
+}
