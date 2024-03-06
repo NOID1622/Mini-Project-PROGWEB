@@ -122,8 +122,17 @@ body{
     background-image: url(https://www.billboard.com/wp-content/uploads/2023/09/olivia-rodrigo-GUTS-world-tour-poster-billboard-1240.jpg);
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: ;
+    background-position: center left;
 }   
+.map{
+    margin-left: 75%;
+    color: aliceblue;    
+}
+.inputmap input{
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 70%;
+}
 p{
     color: aliceblue;
 }
@@ -200,6 +209,7 @@ footer {
     border-collapse:separate ;
     border-spacing: 10px;
     text-align: center;
+    border: 7;
 }
 
 
@@ -248,6 +258,7 @@ footer p{
 } */
 
 footer table {
+    border: 1;
     margin-left: 10% ;
     text-align:  center;
     color: aliceblue;
