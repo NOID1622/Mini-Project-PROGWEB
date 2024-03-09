@@ -188,7 +188,6 @@ footer {
   font-size: xx-large;
   color: #28ffa6;
   transform: scale(100px);
-  bottom-pa
 }
 /* terkini */
 .link:hover {
@@ -281,13 +280,26 @@ video {
   color: aliceblue;
 }
 .input-atas input{
+  font-size: 900em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 25px;
+  margin-left: 30px;
+  text-align: center;
+  background-color: #73097f;
+  
+  color: #28ffa6;
+  border: #28ffa6 solid;
+}
+
+.input-atas #jumlah{
   font-size: large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-  margin-right: 200px;
-  margin-bottom: 140PX;
-  padding: 20px;
   
+}
+.input-atas label{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
 }
 fieldset{
   border-color: #28ffa6 ;
