@@ -311,6 +311,7 @@ fieldset{
   border-color:#73097f ;
   border-width: 5px;
   margin-left: 10px;
+  /* background-image: url(../back/konser1.jpg) ; */
 }
 .tiketgol img{
     /* border: #28ffa6 solid; */
@@ -320,6 +321,7 @@ fieldset{
 }
 .tiketgol img:hover{
   transform: scale(1.1) rotate(5deg);
+  transition: all 0.5s;
 
 }
 
@@ -340,12 +342,15 @@ fieldset{
   display: inline-block;
   text-align: justify;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 0.5s;
 }
 
 .input-atas span:hover {
   transform: scale(1.1);
   background-color:#73097f 
+  
 }
+
   
 
 
@@ -360,6 +365,7 @@ fieldset{
   text-align: center;
   color:aliceblue;
   text-transform: uppercase;
+  transition: all 0.5s;
 }
 .register:hover{
   cursor: pointer;
@@ -405,6 +411,7 @@ input[type="radio"]:checked {
   width: 20px;
   height: 20px;
   border: 2px solid #ccc;
+  border-radius: 100px;
   background-repeat: no-repeat;
   cursor: pointer;
   background-size: 70%; /* Ukuran gambar di tengah */
