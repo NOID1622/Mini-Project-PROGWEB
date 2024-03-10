@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Detail Konser</title>
+    <link rel="icon" type="image/iconweb.png" href="../icon/iconweb.png"/>
+    <title>Detail Konser olivia Rodrigo</title>
   </head>
 
   <body class="body2">
@@ -42,7 +43,7 @@
               <img
                 src="https://www.billboard.com/wp-content/uploads/2023/09/olivia-rodrigo-GUTS-world-tour-poster-billboard-1240.jpg"
                 alt="oliv"
-                height="700px"
+                height="1000px"
                 class="tiket"
               />
             </td>
@@ -50,40 +51,49 @@
               <section class="input-atas">
               <fieldset>
               <legend><label for="input">PURCHASE</label></legend>
-    
-              <input type="Number" placeholder="Jumlah Ticket" id="jumlah" />
-              
-                 
-              <section class="tiketgol"><input type="radio" name="tiket"> <img src="../tiket/vvip.png" alt="vvip" height="100px"></section>
+              <section class="tiketgol"><input type="radio" name="tiket" id="radio">
+                 <img src="../tiket/vvip.png" alt="vvip" height="100px">
+                </section>
               <br>
-              <span>kontol</span>
-              <section class="tiketgol"><input type="radio" name="tiket"> <img src="../tiket/vip.png" alt="vip" height="100px"></section>
-              <section class="tiketgol"><input type="radio" name="tiket"> <img src="../tiket/ekonomi.png" alt="ekonomi" height="100px"></section>
+              <span><b class="bold"><i>VVIP (Very Very Important Person):</i></b>
+
+                Akses terbaik ke tempat duduk atau area konser yang paling dekat dengan panggung.
+                layanan tambahan seperti lounge eksklusif, minuman dan makanan gratis, pengaturan parkir VIP.
+                Kesempatan untuk bertemu staf atau artis</span>
+              <section class="tiketgol"><input type="radio" name="tiket" id="radio">  <img src="../tiket/vip.png" alt="vip" height="100px"></section>
+              <br>
+              <span><b class="bold"><i>VIP (Very Important Person):</i></b>
+
+                Akses yang baik ke area konser. sedikit lebih jauh dari panggung,di lokasi yang nyaman dan terbaik.
+                fasilitas tambahan seperti area duduk yang lebih luas, akses ke bar VIP, atau toilet khusus.
+                memiliki kesempatan untuk bertemu dengan beberapa anggota staf atau artis, tidak se-eksklusif VVIP.</span>
+              <section class="tiketgol"><input type="radio" name="tiket" id="radio"> <img src="../tiket/ekonomi.png" alt="ekonomi" height="100px"></section>
+              <br>
+              <span><b class="bold"><i>Ekonomi:</i></b>
+
+                Tiket dengan harga yang lebih terjangkau, memberikan akses ke area konser umum.
+                Biasanya posisi duduk atau berdiri di area yang lebih jauh dari panggung, memberikan pengalaman menyaksikan konser secara langsung.
+                Fasilitas seperti makanan dan minuman tersedia untuk dibeli secara terpisah.
+                </span>
+
+                
               <br><br><br>
+              <input type="Number" placeholder="Jumlah Ticket" min="1" id="jumlah" />
+              
+              <br><br><br><br>
+
+
               </section>
             </fieldset>
+            <br>
+            <div><input type="submit"  value="Add to cart" class="register"></div>
             </td>
             </div>
 
-        <!-- <video autoplay muted loop poster="poster.jpg" id="background-video" height="600px">
-                <source src="../back/Guts.mp4" type="video/mp4" >
-                Your browser does not support HTML5 video.
-                    <audio autoplay loop>
-                        <source src="../back/Guts.mp3" type="audio/mp3">
-                        Your browser does not support HTML5 audio.
-                    </audio>
-                </video> -->
+
               </table>
       </div>
     </header>
-
-    <main>
-      <!-- <h1>Detail Konser</h1> -->
-      <!-- Informasi lengkap mengenai konser -->
-      <!-- Layout dengan 2 atau 3 kolom -->
-      <!-- Hyperlink kembali ke halaman utama -->
-      <!-- Hyperlink ke halaman pembayaran tiket -->
-    </main>
 
     <br /><br /><br />
     <footer>
@@ -93,9 +103,11 @@
             <td>
               <p>&copy; 2024 Sargio & Jessi. All rights reserved.</p>
             </td>
+            
             <td>
-              <h2>TIcons.co</h2>
+              <a href="HomePage.html" class="linhome"><h2>TIcons.co</h2></a>
             </td>
+            
             <td>
               <h3>Contact us</h3>
             </td>

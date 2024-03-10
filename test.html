@@ -1,22 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
 
-    <style>
-      #selcotr1.sltor2{
-        background-color: red;
-        width: 100px;
-        height: 100px;
-      }z
-    </style>
-  </head>
-  <body>
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
 
-    <div id="selcotr1" class="sltor2"></div>
-    <div class="sltor2"></div>
-    <div id="selcotr1"></div>
-  </body>
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* Tombol ascending */
+.asc-button {
+  background-color: #4CAF50; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  border: none; /* Hapus garis tepi */
+  padding: 10px 20px; /* Padding tombol */
+  text-align: center; /* Pusatkan teks */
+  text-decoration: none; /* Hapus dekorasi tautan */
+  display: inline-block; /* Tampilkan sebagai blok */
+  font-size: 16px; /* Ukuran font */
+  cursor: pointer; /* Pointer mouse berubah menjadi tangan */
+  border-radius: 4px; /* Bulatkan sudut tombol */
+}
+
+/* Efek hover saat mouse di atas tombol */
+.asc-button:hover {
+  background-color: #45a049; /* Warna latar belakang berubah saat hover */
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <!-- Header content -->
+    <div class="atas">
+      <header class="header">
+        <!-- <h1>Konser Musik</h1> -->
+      </header>
+      <header class="header2">
+        <h1>
+          <dd>TIcons</dd>
+        </h1>
+        <a href="HomePage.html">
+          <img
+            class="home"
+            src="../icon/home.png"
+            alt="home"
+            height="48 px"
+          />
+      
+        </a>
+        <button class="asc-button">Ascending</button>
+
+
+        <div class="search">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </div>
+
+        <br /><br /><br />
+      </header>
+</div>
+
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">        <img
+    src="https://www.billboard.com/wp-content/uploads/2023/09/olivia-rodrigo-GUTS-world-tour-poster-billboard-1240.jpg"
+    alt="oliv"
+    height="800px"
+    class="tiket"
+  /></div>
+  <div class="item3">        <section class="input-atas">
+    <fieldset>
+    <legend><label for="input">PURCHASE</label></legend>
+    <section class="tiketgol"><input type="radio" name="tiket"> <img src="../tiket/vvip.png" alt="vvip" height="100px"></section>
+    <br>
+
+    <section class="tiketgol"><input type="radio" name="tiket">  <img src="../tiket/vip.png" alt="vip" height="100px"></section>
+    <br>
+    
+    <section class="tiketgol"><input type="radio" name="tiket"> <img src="../tiket/ekonomi.png" alt="ekonomi" height="100px"></section>
+    <br>
+
+
+      
+    <br><br><br>
+    <input type="Number" placeholder="Jumlah Ticket" min="1" id="jumlah" />
+    
+    <br><br><br><br>
+
+
+    </section>
+  </fieldset></div>  
+  <div class="item4">
+    <span>VVIP (Very Very Important Person):
+
+    Akses terbaik ke tempat duduk atau area konser yang paling dekat dengan panggung.
+    Mungkin termasuk layanan tambahan seperti lounge eksklusif, minuman dan makanan gratis, atau pengaturan parkir VIP.
+    Kesempatan u</span>
+    <span>Ekonomi:
+
+      Tiket dengan harga yang lebih terjangkau, memberikan akses ke area konser yang lebih umum.
+      Biasanya posisi duduk atau berdiri di area yang lebih jauh dari panggung, tetapi masih memberikan pengalaman menyaksikan konser secara langsung.
+      Fasilitas seperti makanan dan minuman seringkali tersedia untuk dibeli secara terpisah.
+      </span>
+    
+      <span>VIP (Very Important Person):
+
+      Akses yang baik ke area konser yang mungkin sedikit lebih jauh dari panggung dibandingkan dengan VVIP, tetapi masih di lokasi yang nyaman dan terbaik.
+      Mungkin termasuk beberapa fasilitas tambahan seperti area duduk yang lebih luas, akses ke bar VIP, atau toilet khusus.
+      Mungkin juga memiliki kesempatan untuk bertemu dengan beberapa anggota staf atau artis, meskipun mungkin tidak se-eksklusif VVIP.</span>
+    
+    </div>
+    
+
+  <div class="item5">Footer</div>
+</div>
+
+</body>
 </html>
+
