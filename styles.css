@@ -317,3 +317,9 @@ fieldset{
   height: 50px;
 }
 
+.input-atas span{
+  color: aliceblue;
+  position: relative;
+  overflow: hidden;
+}
+
