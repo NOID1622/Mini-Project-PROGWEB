@@ -37,6 +37,7 @@ fieldset {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
   font-size: 100px;
+
 }
 
 .header2 > h1 {
@@ -48,11 +49,13 @@ fieldset {
   top: 0;
   background-color: rgba(155, 11, 181, 0.8);
   width: 59%;
+  display: flex;
+  margin-inline: auto;
 }
 
 .header2 > .search {
   position: absolute;
-
+  margin-inline: auto;
   padding-right: 30px;
   color: aliceblue;
   text-align: left;
@@ -286,7 +289,7 @@ footer h3:hover {
   color: aliceblue;
 }
 .input-atas input{
-  font-size: 900em;
+  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 25px;
   margin-left: 30px;
@@ -300,7 +303,7 @@ footer h3:hover {
 .input-atas #jumlah{
   font-size: large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-right: 
+  
 }
 .input-atas label{
   font-size: large;
@@ -324,6 +327,17 @@ fieldset{
   transition: all 0.5s;
 
 }
+p.stok{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 150px;
+  visibility: hidden;
+}
+
+.tiketgol img:hover + p.stok{
+  visibility: visible;
+  transform: scale(1.1) rotate(4deg);
+  transition: all 1s;
+}
 
 .tiketgol input{
   width: 20px;
@@ -332,6 +346,14 @@ fieldset{
   
 
 }
+
+.tiketgol input[type="radio"]:checked + img{
+  transform: scale(1.1) rotate(5deg);
+  transition: all 2s;
+}
+
+
+
 
 
 .input-atas span{
@@ -402,9 +424,20 @@ input[type="radio"]:checked {
   border-color: #73097f;
   
 }
+.waktukonser{
+  width: 100px;
+  color: aliceblue!important;
+}
 
+label[for="stik"] {
+  margin-left: 100px;
+  color: rgb(113, 113, 113);
+}
 
-
+label[for="date"] {
+  margin-left: 49px;
+  color: rgb(113, 113, 113);
+}
 #radio{
   background-image: url('../icon/store.png'); /* Ganti dengan path gambar yang sesuai */
   display: inline-block;
@@ -416,4 +449,65 @@ input[type="radio"]:checked {
   cursor: pointer;
   background-size: 70%; /* Ukuran gambar di tengah */
   background-position: center; /* Posisi gambar di tengah */
+}
+
+
+
+.seat{
+  height: 600px;
+}
+td.td2 h1{
+  color: #28ffa6!important;
+}
+
+td label[for="s"] {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+ margin-left: 350px;
+  color: aliceblue  ;
+}
+
+td.td2{
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  font-size: larger;
+  width: 900px;
+  padding: 800;
+}
+.deskripsi{
+
+  color: aliceblue ;
+  text-align: justify;
+  position: relative ;
+  margin-left: 150px;
+  padding: 100px;
+  /* margin-top: 550px; */
+}
+
+.genrespan{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  color: #28ffa6;
+  background-color: #73097f;
+  padding: 5px;
+
+  font-size: 20px;
+}
+
+.bagiandalam td{
+  padding: 10px;
+  margin-left: -100px;
+  vertical-align: top ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.genrespan td{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.bagiandalam ul{
+  margin: 0 0 0 0;
+  padding: 10px
+  
 }
