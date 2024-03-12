@@ -15,17 +15,17 @@ th,
 td {
   width: 150px;
 }
-a{
+a {
   color: #28ffa6;
   text-decoration: none;
 }
-.linhome{
-  color: aliceblue!important;
+.linhome {
+  color: aliceblue !important;
 }
 
 fieldset {
   padding: 10px;
-  width: 100%;
+  width: 450px;
   margin: 0;
   top: 50%;
 }
@@ -37,7 +37,6 @@ fieldset {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
   font-size: 100px;
-
 }
 
 .header2 > h1 {
@@ -128,10 +127,10 @@ fieldset {
 }
 .body1 {
   background-color: rgb(23, 23, 40);
-
 }
 .body2 {
-  background-color: rgb(23, 23, 40);}
+  background-color: rgb(23, 23, 40);
+}
 .body2 {
   /* background-image: url(https://www.billboard.com/wp-content/uploads/2023/09/olivia-rodrigo-GUTS-world-tour-poster-billboard-1240.jpg); */
   border: 1;
@@ -286,128 +285,109 @@ footer h3:hover {
   color: #28ffa6;
 }
 
-
 /* bagian detail */
-.tabtiket label{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.tabtiket label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: aliceblue;
 }
-.input-atas input{
-  
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.input-atas input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 25px;
   margin-left: 30px;
   text-align: center;
   background-color: #73097f;
-  
+
   color: #28ffa6;
   /* border: #28ffa6 solid; */
 }
 
-.input-atas #jumlah{
+.input-atas #jumlah {
   font-size: large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.input-atas label{
+.input-atas label {
   font-size: large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
-fieldset{
-  border-color:#73097f ;
+fieldset {
+  border-color: #73097f;
   border-width: 5px;
   margin-left: 10px;
   /* background-image: url(../back/konser1.jpg) ; */
 }
-.tiketgol img{
-    /* border: #28ffa6 solid; */
-    position: relative;
-    top:28px;
-
-
+.tiketgol img {
+  /* border: #28ffa6 solid; */
+  position: relative;
+  top: 28px;
 }
-.tiketgol img:hover{
+.tiketgol img:hover {
   transform: scale(1.1) rotate(5deg);
-  transition: all 0.5s; 
- 
-
+  transition: all 0.5s;
 }
-p.stok{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+p.stok {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-left: 150px;
   visibility: hidden;
 }
 
-.tiketgol img:hover + p.stok{
+.tiketgol img:hover + p.stok {
   visibility: visible;
   transform: scale(1.1) rotate(4deg);
   transition: all 1s;
 }
 
-.tiketgol input{
+.tiketgol input {
   width: 20px;
   height: 50px;
   padding-bottom: 10px;
-  
-
 }
 
-.tiketgol input[type="radio"]:checked + img{
+.tiketgol input[type="radio"]:checked + img {
   transform: scale(1.1) rotate(5deg);
   transition: all 2s;
 }
 
-
-
-
-
-.input-atas span{
+.input-atas span {
   color: aliceblue;
   font-size: 11px;
   position: relative;
   overflow: hidden;
   display: inline-block;
   text-align: justify;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   transition: all 0.5s;
 }
 
 .input-atas span:hover {
   transform: scale(1.1);
-  background-color:#73097f 
-  
+  background-color: #73097f;
 }
 
-  
-
-
-
-
-.register{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs ;
-  border: #73097f  solid 40px;
+.register {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serifs;
+  border: #73097f solid 40px;
   font-size: 50px;
-  background-color: #73097f ;
+  background-color: #73097f;
   margin-left: 8%;
   text-align: center;
-  color:aliceblue;
+  color: aliceblue;
   text-transform: uppercase;
   transition: all 0.5s;
 }
-.register:hover{
+.register:hover {
   cursor: pointer;
   transform: scale(1.1);
   background-color: #28ffa6;
-  border: #28ffa6  solid 36px;
+  border: #28ffa6 solid 36px;
 }
-.bold{
+.bold {
   color: #28ffa6;
 }
 
 #jumlah::placeholder {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #ffffff ; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -421,11 +401,10 @@ input[type="radio"] {
 input[type="radio"]:checked {
   background-color: #28ffa6;
   border-color: #73097f;
-  
 }
-.waktukonser{
+.waktukonser {
   width: 100px;
-  color: aliceblue!important;
+  color: aliceblue !important;
 }
 
 label[for="stik"] {
@@ -437,8 +416,8 @@ label[for="date"] {
   margin-left: 49px;
   color: rgb(113, 113, 113);
 }
-#radio{
-  background-image: url('../icon/store.png'); /* Ganti dengan path gambar yang sesuai */
+#radio {
+  background-image: url("../icon/store.png"); /* Ganti dengan path gambar yang sesuai */
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -450,48 +429,45 @@ label[for="date"] {
   background-position: center; /* Posisi gambar di tengah */
 }
 
-
-
-.seat{
+.seat {
   height: 600px;
   transition: transform 0.3s ease;
 }
 
-.seat:hover{
-  transform: scale(1.2); 
+.seat:hover {
+  transform: scale(1.2);
 }
 
-td.td2 h1{
-  color: #28ffa6!important;
+td.td2 h1 {
+  color: #28ffa6 !important;
 }
 
 td label[for="s"] {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: larger;
- margin-left: 350px;
-  color: aliceblue  ;
+  margin-left: 350px;
+  color: aliceblue;
 }
 
-td.td2{
+td.td2 {
   color: aliceblue;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: justify;
   font-size: larger;
   width: 900px;
   padding: 800;
 }
-.deskripsi{
-
-  color: aliceblue ;
+.deskripsi {
+  color: aliceblue;
   text-align: justify;
-  position: relative ;
+  position: relative;
   margin-left: 150px;
   padding: 100px;
   /* margin-top: 550px; */
 }
 
-.genrespan{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.genrespan {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #28ffa6;
   background-color: #73097f;
   padding: 5px;
@@ -499,22 +475,20 @@ td.td2{
   font-size: 20px;
 }
 
-.bagiandalam td{
+.bagiandalam td {
   padding: 10px;
   margin-left: -100px;
-  vertical-align: top ;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  vertical-align: top;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.genrespan td{
+.genrespan td {
   text-align: center;
   padding: 10px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.bagiandalam ul{
+.bagiandalam ul {
   margin: 0 0 0 0;
-  padding: 10px
-  
+  padding: 10px;
 }
 /* 
 .regis{  background-color: rgb(23, 23, 40);
@@ -522,39 +496,37 @@ td.td2{
     background-size: 40%;
     background-repeat: no-repeat;} */
 
-    
-.DataDiri{
-    border-bottom: 3px dashed #28ffa6 ;
-    color: white;
-    margin: auto;
-    width: 640px;
-    padding: 50px;
-    box-sizing: border-box;
-    position: relative;
-    
-    overflow: hidden;
+.DataDiri {
+  border-bottom: 3px dashed #28ffa6;
+  color: white;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+
+  overflow: hidden;
 }
 
-.DataDiri label{
+.DataDiri label {
   display: block;
   float: left;
   width: 100px;
   padding: 10px;
-
 }
 
-
 .DataDiri::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:  #73097f;
-    background-size: cover;
-    filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
-    z-index: -1;}
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #73097f;
+  background-size: cover;
+  filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
+  z-index: -1;
+}
 
 /* .regis input[type="text"], input[type="email"], input[type="password"], input[type="NIK"], input[type="hp"] {
     width: 50%;
@@ -563,56 +535,55 @@ td.td2{
     height: 20px;
   } */
 
+.Pembayaran {
+  /* border: 10px solid purple; */
+  color: white;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
 
-.Pembayaran{
-    /* border: 10px solid purple; */
-    color: white;
-    margin: auto;
-    width: 640px;
-    padding: 50px;
-    box-sizing: border-box;
-    position: relative;
-
-    overflow: hidden;
-
+  overflow: hidden;
 }
 
 .Pembayaran::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:  #73097f;
-    background-size: cover;
-    filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
-    z-index: -1;}
-
-.DataDiri input{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #410946;
-    color: #28ffa6;
-    border: none;
-    margin-left: 20px ;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #73097f;
+  background-size: cover;
+  filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
+  z-index: -1;
 }
 
-.regis label{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.DataDiri input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #410946;
+  color: #28ffa6;
+  border: none;
+  margin-left: 20px;
 }
 
-.regis h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;    
+.regis label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.regis textarea{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #28ffa6;
-    background-color:  #410946;
-    border: none;
-    margin-left: 20px;
-    font-size: 15px;
+.regis h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.regis textarea {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #28ffa6;
+  background-color: #410946;
+  border: none;
+  margin-left: 20px;
+  font-size: 15px;
 }
 /* .regis input[type="email"]:valid::after {
     content: "Valid email";
@@ -623,217 +594,210 @@ td.td2{
 } */
 
 .regis input[type="radio"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    margin-top: 20px ;
-    margin-bottom: 20px ;
-
-  }
-
-.kelamin input[type="radio"][value="1"]{
-    background-image: url(../icon/laki2.png);
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.kelamin input[type="radio"][value="2"]{
-    background-image: url(../icon/perempuan.png);
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
+.kelamin input[type="radio"][value="1"] {
+  background-image: url(../icon/laki2.png);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
+}
+
+.kelamin input[type="radio"][value="2"] {
+  background-image: url(../icon/perempuan.png);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
 }
 
 .kelamin input[type="radio"]:checked {
-    background-color: #28ffa6;
-    border-color: #73097f;
-    
-  }
-
-.Pembayaran input[type='radio'][value='credit']{
-    background-image: url(../icon/credit.png);
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
-
-}
-.Pembayaran input[type='radio'][value='debit']{
-    background-image: url(../icon/debit.png);
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
-
+  background-color: #28ffa6;
+  border-color: #73097f;
 }
 
-.Pembayaran input[type='radio'][value='e-wallet']{
-    background-image: url(../icon/e-wallet.png);
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+.Pembayaran input[type="radio"][value="credit"] {
+  background-image: url(../icon/credit.png);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
 
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
+}
+.Pembayaran input[type="radio"][value="debit"] {
+  background-image: url(../icon/debit.png);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
 
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
+}
+
+.Pembayaran input[type="radio"][value="e-wallet"] {
+  background-image: url(../icon/e-wallet.png);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
 }
 
 .Pembayaran input[type="radio"]:checked {
-    background-color: #28ffa6;
-    border-color: #73097f;
-    
-  }
-
-.regis input[type='submit']{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
-    border: #73097f solid 20px;
-    font-size: 50px;
-    background-color: #73097f;
-    display: block; /* Penting untuk menggunakan margin: 0 auto; */
-    margin: 0 auto;
-
-    text-align: center;
-    color: aliceblue;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    
-
+  background-color: #28ffa6;
+  border-color: #73097f;
 }
 
-.regis input[type='submit']:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: #28ffa6;
-    border: #28ffa6  solid 30px;
-  }
+.regis input[type="submit"] {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serifs;
+  border: #73097f solid 20px;
+  font-size: 50px;
+  background-color: #73097f;
+  display: block; /* Penting untuk menggunakan margin: 0 auto; */
+  margin: 0 auto;
 
-  .regis{  background-color: rgb(23, 23, 40);
-    background-image: url(../back/konser1.jpg);
-    background-size: 40%;
-    background-repeat: no-repeat;}
+  text-align: center;
+  color: aliceblue;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
 
-    
-.DataDiri{
-  
-    border-bottom: 3px dashed #28ffa6 ;
-    color: white;
-    margin: auto;
-    width: 640px;
-    padding: 50px;
-    box-sizing: border-box;
-    position: relative;
-    margin-top: 20px;  
+.regis input[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #28ffa6;
+  border: #28ffa6 solid 30px;
+}
 
-    overflow: hidden;
-    
+.regis {
+  background-color: rgb(23, 23, 40);
+  background-image: url(../back/konser1.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.DataDiri {
+  border-bottom: 3px dashed #28ffa6;
+  color: white;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 20px;
+
+  overflow: hidden;
 }
 
 .DataDiri::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:  #73097f;
-    background-size: cover;
-    filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
-    z-index: -1;}
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #73097f;
+  background-size: cover;
+  filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
+  z-index: -1;
+}
 
-.regis input[type="text"], input[type="email"], input[type="password"], input[type="NIK"], input[type="hp"] {
-    width: 50%;
-    padding: 5px;
-    box-sizing: border-box;
-    height: 20px;
-  }
+.regis input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="NIK"],
+input[type="hp"] {
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 20px;
+}
 
+.Pembayaran {
+  /* border: 10px solid purple; */
+  color: white;
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
 
-.Pembayaran{
-    /* border: 10px solid purple; */
-    color: white;
-    margin: auto;
-    width: 640px;
-    padding: 50px;
-    box-sizing: border-box;
-    position: relative;
-
-    overflow: hidden;
-
+  overflow: hidden;
 }
 
 .Pembayaran::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:  #73097f;
-    background-size: cover;
-    filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
-    z-index: -1;}
-
-.Datadiri input{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #410946;
-    color: #28ffa6;
-    border: none;
-    margin-left: 
-    20px ;
-
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #73097f;
+  background-size: cover;
+  filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
+  z-index: -1;
 }
 
-.regis label{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.Datadiri input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #410946;
+  color: #28ffa6;
+  border: none;
+  margin-left: 20px;
 }
 
-form h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;    
-    text-transform: uppercase;
+.regis label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.regis textarea{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #28ffa6;
-    background-color:  #410946;
-    border: none;
-    margin-left: 20px;
-    font-size: 15px;
+form h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.regis textarea {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #28ffa6;
+  background-color: #410946;
+  border: none;
+  margin-left: 20px;
+  font-size: 15px;
 }
 /* .regis input[type="email"]:valid::after {
     content: "Valid email";
@@ -844,120 +808,116 @@ form h1{
 } */
 
 .regis input[type="radio"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    margin-top: 20px ;
-    margin-bottom: 20px ;
-
-  }
-
-.kelamin input[type="radio"][value="1"]{
-    background-image: url(../icon/laki2.png);
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.kelamin input[type="radio"][value="2"]{
-    background-image: url(../icon/perempuan.png);
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
+.kelamin input[type="radio"][value="1"] {
+  background-image: url(../icon/laki2.png);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
+}
+
+.kelamin input[type="radio"][value="2"] {
+  background-image: url(../icon/perempuan.png);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
 }
 
 .kelamin input[type="radio"]:checked {
-    background-color: #28ffa6;
-    border-color: #73097f;
-    
-  }
-
-.Pembayaran input[type='radio'][value='credit']{
-    background-image: url(../icon/credit.png);
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
-
-}
-.Pembayaran input[type='radio'][value='debit']{
-    background-image: url(../icon/debit.png);
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
-
+  background-color: #28ffa6;
+  border-color: #73097f;
 }
 
-.Pembayaran input[type='radio'][value='e-wallet']{
-    background-image: url(../icon/e-wallet.png);
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+.Pembayaran input[type="radio"][value="credit"] {
+  background-image: url(../icon/credit.png);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
 
-    border: 2px solid #ccc;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 70%;
-    background-position: center;
-    transition: all 1s;
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
+}
+.Pembayaran input[type="radio"][value="debit"] {
+  background-image: url(../icon/debit.png);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
 
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
+}
+
+.Pembayaran input[type="radio"][value="e-wallet"] {
+  background-image: url(../icon/e-wallet.png);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+  border: 2px solid #ccc;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 70%;
+  background-position: center;
+  transition: all 1s;
 }
 
 .Pembayaran input[type="radio"]:checked {
-    background-color: #28ffa6;
-    border-color: #73097f;
-    
-  }
-
-.regis input[type='submit']{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
-    border: #73097f solid 20px;
-    font-size: 50px;
-    background-color: #73097f;
-    display: block; /* Penting untuk menggunakan margin: 0 auto; */
-    margin: 0 auto;
-
-    text-align: center;
-    color: aliceblue;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    
-
+  background-color: #28ffa6;
+  border-color: #73097f;
 }
 
-.regis input[type='submit']:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: #28ffa6;
-    border: #28ffa6  solid 30px;
-  }
+.regis input[type="submit"] {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serifs;
+  border: #73097f solid 20px;
+  font-size: 50px;
+  background-color: #73097f;
+  display: block; /* Penting untuk menggunakan margin: 0 auto; */
+  margin: 0 auto;
+
+  text-align: center;
+  color: aliceblue;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.regis input[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #28ffa6;
+  border: #28ffa6 solid 30px;
+}
+
+.tablemaps {
+  margin-left: 150px;
+}
