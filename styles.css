@@ -821,9 +821,10 @@ td.td2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.regis h1{
+form h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;    
+    text-transform: uppercase;
 }
 
 .regis textarea{
