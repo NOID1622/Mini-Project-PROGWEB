@@ -531,10 +531,18 @@ td.td2{
     padding: 50px;
     box-sizing: border-box;
     position: relative;
-
-    overflow: hidden;
     
+    overflow: hidden;
 }
+
+.DataDiri label{
+  display: block;
+  float: left;
+  width: 100px;
+  padding: 10px;
+
+}
+
 
 .DataDiri::before {
     content: '';
@@ -586,8 +594,7 @@ td.td2{
     background-color: #410946;
     color: #28ffa6;
     border: none;
-    margin-left: 
-    20px ;
+    margin-left: 20px ;
 }
 
 .regis label{
