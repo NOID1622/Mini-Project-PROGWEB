@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="regis">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="regis.css">
+</head>
+<body>
+    <form action="" method="post">
+    <div class="DataDiri">
+        
+        <h1>Biodata Diri</h1>
+    <table >
+        <tr>
+            <td>
+                <label for="namadepan">Nama Depan:</label>    
+            </td>
+            <td>
+                <input type="text" id="textInput" pattern="[A-Za-z\s]*" title="Masukkan hanya karakter tanpa angka" required><br>            </td>
+        </tr>
+        <TR>
+            <td>
+                <label for="namablkng">Nama Belakang:</label>        
+            </td>
+            <td>
+        <input type="text" id="nama" name="nama" pattern="[A-Za-z\s]*" title="optional" >
+            </td>
+        </TR>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" required>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="NIK">NIK:</label>
+
+
+            </td>
+            <td>
+                <input type="number"pattern="[0-9]{16}" title="Masukkan 16 digit angka" required min="0" ><br><br>
+
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hp">No. HP:</label>
+
+            </td>
+              
+
+            <td>
+                <input type="number" maxlength="13" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label for="alamat">Alamat:</label> 
+
+            </td>
+            <td>
+                <textarea id="alamat" name="alamat" rows="5" cols="50" required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="jenis_kelamin">Jenis Kelamin:</label>
+
+
+            </td>
+            <td class="kelamin">
+                <input type="radio" name="kategori" id="kategoriID" value="1">
+                <input type="radio" name="kategori" id="kategoriID" value="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                
+            </td>
+            <td>
+                <input type="date"
+                id="tanggal_lahir" 
+                name="tanggal_lahir" 
+                max="2017-01-01" required>
+            </td>
+        </tr>
+    </table>
+    </div>
+   
+    <div class="Pembayaran">
+        <h1>Metode Pembayaran:</h1>
+        <table >
+            <tr>
+                <td><input type="radio" id="credit" name="payment" value="credit" required></td>
+                <td> <input type="radio" id="debit" name="payment" value="debit" required></td>
+                <td><input type="radio" id="e-walllet" name="payment" value="e-wallet" required></td>
+            
+            
+            <br>
+           
+            </tr>
+        </table>
+        <input type="submit" value="PESAN">
+    </div>
+
+    </form>
+</body>
+</html>

@@ -321,10 +321,12 @@ fieldset{
     position: relative;
     top:28px;
 
+
 }
 .tiketgol img:hover{
   transform: scale(1.1) rotate(5deg);
-  transition: all 0.5s;
+  transition: all 0.5s; 
+ 
 
 }
 p.stok{
@@ -410,13 +412,6 @@ input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  
-  width: 20px;
-  height: 20px;
-  border: 2px solid #ccc;
-
-  outline: none;
-  cursor: pointer;
 }
 
 input[type="radio"]:checked {
@@ -455,7 +450,13 @@ label[for="date"] {
 
 .seat{
   height: 600px;
+  transition: transform 0.3s ease;
 }
+
+.seat:hover{
+  transform: scale(1.2); 
+}
+
 td.td2 h1{
   color: #28ffa6!important;
 }
