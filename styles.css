@@ -20,7 +20,7 @@ footer table {
 
 .home {
   margin-top: 0.1vw;
-  
+  height:48px
 }
 .home:hover {
   transform: scale(1.1);
@@ -55,6 +55,7 @@ fieldset {
 
 
 .header2 > h1 {
+  float: left;
   position: fixed;
   color: aliceblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -198,6 +199,7 @@ footer {
   margin-top: 65px;
 }
 .concert-option img {
+  float: right;
   border-radius: 5px;
   width: 100px;
   height: 100px;
@@ -976,3 +978,15 @@ form h1 {
   margin-left: 150px;
 }
 
+@media only screen and (max-width: 600px) {
+  table {
+      width: 100%;
+  }
+  table, th, td {
+      display: block;
+  }
+  th, td {
+      border: none;
+      width: 100%;
+      font-size: 0.8em; 
+  }}
