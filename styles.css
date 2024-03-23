@@ -52,6 +52,8 @@ fieldset {
   text-transform: uppercase;
   font-size: 6.5vw; /* Menggunakan unit vw untuk ukuran huruf */
 }
+
+
 .header2 > h1 {
   position: fixed;
   color: aliceblue;
