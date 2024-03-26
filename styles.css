@@ -66,7 +66,7 @@ fieldset {
   width: 60%;
   display: flex;
   margin-inline: auto;
-  z-index: 2;
+  z-index: 1;
 }
 
 .header2 > .search {
@@ -530,17 +530,20 @@ label[for="date"] {
 .seat {
   height: 600px;
   transition: transform 0.3s ease;
+  z-index: -1;
   
 }
 
 .seat:hover {
   transform: scale(1.2);
+  z-index: 1;
   
 }
 
 td.td2 h1 {
   color: #28ffa6 !important;
   text-align: left;
+  z-index: -1;
 }
 
 td label[for="s"] {
@@ -1055,3 +1058,18 @@ form h1 {
       width: 100%;
       font-size: 0.8em; 
   }}
+
+  .finisregis{
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    padding: 17%;
+    text-align: center;
+  }
+
+  .finisregis a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    transform: scale(1.5);
+    transition: all 0.5s;
+  }
