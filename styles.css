@@ -45,12 +45,12 @@ fieldset {
 }
 .header {
   position: absolute;
-  padding-right: 10vw; /* Menggunakan unit vw untuk padding */
+  padding-right: 10vw; 
   color: aliceblue;
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
-  font-size: 6.5vw; /* Menggunakan unit vw untuk ukuran huruf */
+  font-size: 6.5vw; 
 }
 
 
@@ -329,7 +329,7 @@ footer {
   position: absolute;
   top: -20px;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang overlay */
+  background-color: rgba(0, 0, 0, 0.8); 
   color: #28ffa6;
   width: 80%;
   height: 100%;
@@ -515,7 +515,7 @@ label[for="date"] {
   color: rgb(113, 113, 113);
 }
 #radio {
-  background-image: url("../icon/store.png"); /* Ganti dengan path gambar yang sesuai */
+  background-image: url("../icon/store.png"); 
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -657,7 +657,7 @@ td.td2 {
   height: 100%;
   background-color: #73097f;
   background-size: cover;
-  filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
+  filter: blur(200px);
   z-index: -1;
 }
 
@@ -789,7 +789,7 @@ td.td2 {
   border: #73097f solid 20px;
   font-size: 50px;
   background-color: #73097f;
-  display: block; /* Penting untuk menggunakan margin: 0 auto; */
+  display: block; 
   margin: 0 auto;
 
   text-align: center;
@@ -834,7 +834,7 @@ td.td2 {
   height: 100%;
   background-color: #73097f;
   background-size: cover;
-  filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
+  filter: blur(200px);
   z-index: -1;
 }
 
@@ -870,7 +870,7 @@ input[type="hp"] {
   height: 100%;
   background-color: #73097f;
   background-size: cover;
-  filter: blur(200px); /* Atur jumlah blur sesuai kebutuhan */
+  filter: blur(200px); 
   z-index: -1;
 }
 
@@ -1003,7 +1003,7 @@ form h1 {
   border: #73097f solid 20px;
   font-size: 50px;
   background-color: #73097f;
-  display: block; /* Penting untuk menggunakan margin: 0 auto; */
+  display: block;
   margin: 0 auto;
 
   text-align: center;
@@ -1016,7 +1016,7 @@ form h1 {
   border: #73097f solid 20px;
   font-size: 50px;
   background-color: #73097f;
-  display: block; /* Penting untuk menggunakan margin: 0 auto; */
+  display: block; 
   margin: 0 auto;
 
   text-align: center;
